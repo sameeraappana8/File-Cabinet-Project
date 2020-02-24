@@ -6,7 +6,7 @@ class DocsController < ApplicationController
   end
 
   def show
-
+    #before_action takes care of this
   end
 
   def new
@@ -23,12 +23,21 @@ class DocsController < ApplicationController
   end
 
   def edit
+    #before_action takes care of this
   end
 
   def update
+    if @doc.update(doc_params)
+      redirect_to @doc
+    else
+      render 'edit'
+      #redirect is not used because it created a new http request and deletes the data.we dont want that so use render
+    end
   end
 
   def destroy
+    @doc.destroy
+    redirect_to docs_path
   end
 
   private
