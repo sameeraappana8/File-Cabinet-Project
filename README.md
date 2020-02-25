@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my first Hands-on project using Ruby on Rails.
 
-Things you may want to cover:
+To get it running on your local machine:
 
-* Ruby version
+```bash
+gem install bundler
+```
 
-* System dependencies
+```bash
+bundle install
+```
 
-* Configuration
+```bash
+rails db:migrate
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+rails server
+```
