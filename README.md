@@ -2,6 +2,8 @@
 
 This is my first Hands-on project using Ruby on Rails.
 
+To access my file organizer web application, Go to https://myfileorganizer.herokuapp.com
+
 To get it running on your local machine:
 
 ```bash
