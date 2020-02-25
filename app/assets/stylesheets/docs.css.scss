@@ -15,7 +15,7 @@
 		position: relative;
 		text-align: center;
 		.title {
-			@include bold_font;
+      font-weight: bold;
 			color: white;
 			margin: 0;
 			left: 4.5%;
@@ -35,7 +35,7 @@
 			position: absolute;
 			bottom: .25rem;
 			left: 27.5%;
-			color: $light_gray;
+			color: gray;
 			font-weight: bold;
 			font-size: .75rem;
 			text-align: left;
@@ -47,8 +47,8 @@
 
 #doc_show {
 	.title {
-		@include bold_font;
 		color: #78594B;
+    font-weight: bold;
 		font-size: 2.0rem;
 		margin-bottom: 1.25rem;
 		padding-bottom: 1rem;
@@ -68,7 +68,6 @@
 			text-decoration: none;
 			color: #529ECC;
 			border: 5px solid #529ECC;
-			@include bold_font;
 			background: transparent;
 		}
 	}

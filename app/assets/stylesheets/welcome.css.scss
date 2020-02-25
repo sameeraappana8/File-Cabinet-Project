@@ -16,12 +16,13 @@
 		vertical-align: middle;
 		text-align: center;
 		h1 {
-			@include bold_font;
+			font-weight: bold;
 			color: #529ECC;
 			font-size: 3.5rem;
 			margin: 0;
 		}
 		p {
+			font-style: italic;
 			font-size: 1.5rem;
 			margin: 0 0 2.5rem 0;
 			color: rgba(82,158,204, 0.6);
@@ -38,8 +39,8 @@
 		margin: 0 0 .5rem 0;
 	}
 	.name {
-		@include bold_font;
-		color: $dark_gray;
+		font-weight: bold;
+		color: gray;
 		margin: 0;
 		font-size: .85rem;
 	}
@@ -62,8 +63,8 @@
 		padding: 1.5rem 2.5%;
 		float: left;
 		h2 {
-			@include bold_font;
-			color: $dark_gray;
+			font-weight: bold;
+			color: gray;
 			font-size: 3.5rem;
 			margin: 0;
 			}
@@ -79,8 +80,8 @@
 	text-align: center;
 	padding: 7.5rem 0;
 	h2 {
-		@include bold_font;
-		color: $dark_gray;
+		font-weight: bold;
+		color: gray;
 		font-size: 3rem;
 		margin: 0;
 	}
